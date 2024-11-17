@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  flex-grow: 1; 
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  background: transparent; 
+  background-color: gray;
+  border-radius: 7px;
+  border: none; 
+  cursor: pointer; 
+  padding: 10px; 
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); 
+}
